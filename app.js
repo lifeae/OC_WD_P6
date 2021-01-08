@@ -4,9 +4,10 @@ const sauceRoutes = require('./routes/sauce');
 const userRoutes = require('./routes/user');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv').config();
 const path = require('path');
 
-mongoose.connect('mongodb+srv://lifeae:CZzISzIgFpdIQLxP@cluster0.8hhri.mongodb.net/<dbname>?retryWrites=true&w=majority',
+mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.8hhri.mongodb.net/<dbname>?retryWrites=true&w=majority`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
