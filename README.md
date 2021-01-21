@@ -2,17 +2,16 @@
 
 ## Parcours Développeur Web - Projet 6 : Construisez une API sécurisée pour une application d'avis gastronomiques
 
-### Livrables
+### :clipboard: Livrables
 * le lien vers votre dépôt Git public contenant le code de l’API.
 
-### Prérecquis
- - Avoir installé NodeJS : https://nodejs.org.
+## :wrench: Installation
 
-## Installation
- - Ouvrez deux terminaux et placez-vous dans le répertoire qui vous convient pour télécharger cette application,
+### :warning: Prérecquis
+ - Avoir installé NodeJS : https://nodejs.org.
  
-### Partie Front
-- Prenez le premier terminal,
+### :computer: Partie Front 
+- Ouvrez un terminal et placez-vous dans le repertoire ou vous souhaitez télécharger l'application,
 - Télécharger la partie front de l'application :
   - `git clone https://github.com/OpenClassrooms-Student-Center/dwj-projet6.git frontend`
 - Déplacez vous à l'intérieur du dossier crée :
@@ -25,8 +24,8 @@
 - Lancez le serveur :
   - `npm start`
   
-### Partie Back
-- Prenez le second terminal,
+### :floppy_disk: Partie Back
+- Ouvrez un nouveau terminal à la racine de l'application,
 - Télécharger la partie back de l'application :
   - `git clone https://github.com/lifeae/OC_WD_P6 backend`
 - Déplacez vous à l'intérieur du dossier crée :
@@ -36,11 +35,12 @@
 - Créez un fichier .env pour stocker vos données sensibles :
   - `code -r .env`
 - Pour l'exemple, voici les informations de connexion du compte invité pour la base de données et un token pour le chiffrement de votre mot de passe.
-  - ```
-  DB_USER=guest
+```
+DB_USER=guest
 DB_PASS=0RLV2dnqHXuzTe6T
 TOKEN=0penClassrooms
 ```
 - Copiez-collez ces lignes dans le fichier .env et enregistrez le document
 - Lancez le serveur
   - `node server`
+#### Bonne visite sur : http://localhost:4200/ ! :rocket:
