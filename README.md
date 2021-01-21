@@ -12,7 +12,7 @@
  
 ### :computer: Partie Front 
 - Ouvrez un terminal et placez-vous dans le repertoire ou vous souhaitez télécharger l'application,
-- Télécharger la partie front de l'application :
+- Téléchargez la partie front de l'application :
   - `git clone https://github.com/OpenClassrooms-Student-Center/dwj-projet6.git frontend`
 - Déplacez vous à l'intérieur du dossier crée :
   - `cd frontend`
@@ -26,7 +26,7 @@
   
 ### :floppy_disk: Partie Back
 - Ouvrez un nouveau terminal à la racine de l'application,
-- Télécharger la partie back de l'application :
+- Téléchargez la partie back de l'application :
   - `git clone https://github.com/lifeae/OC_WD_P6 backend`
 - Déplacez vous à l'intérieur du dossier crée :
   - `cd backend`
