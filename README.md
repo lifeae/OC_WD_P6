@@ -2,7 +2,7 @@
 
 ## Parcours Développeur Web - Projet 6 : Construisez une API sécurisée pour une application d'avis gastronomiques
 
-### :clipboard: Livrables
+### Livrables
 * le lien vers votre dépôt Git public contenant le code de l’API.
 
 ## :wrench: Installation
