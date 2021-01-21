@@ -41,6 +41,8 @@ DB_PASS=0RLV2dnqHXuzTe6T
 TOKEN=0penClassrooms
 ```
 - Copiez-collez ces lignes dans le fichier .env et enregistrez le document
+- Créez le dossier qui recevra vos images :
+  - `mkdir images`
 - Lancez le serveur
   - `node server`
 #### Bonne visite sur : http://localhost:4200/ ! :rocket:
